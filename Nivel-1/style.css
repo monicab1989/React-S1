@@ -183,3 +183,87 @@ section {
   margin: 5px 15px 15px 15px;
 }
 }
+/*Para móviles*/
+
+@media (max-width: 22.5em) {
+  /*Caja primera*/
+  /*Primera cabecera de la caja*/
+  #containerHeader1 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  #parrafoHeader1 {
+    width: auto;
+    height: 30px;
+    margin: 20px 20px 10px 20px;
+  }
+  #parrafoHeader2 {
+    width: auto;
+    height: 30px;
+    margin: 10px 20px;
+  }
+  #parrafoHeader3 {
+    width: auto;
+    height: 30px;
+    margin: 10px 20px 20px 20px;
+  }
+  /*Segunda cabecera de la caja*/
+  #containerHeader2 {
+    margin: 20px;
+    height: 65px;
+  }
+  #header2Parrafo {
+    height: auto;
+    margin: 20px;
+  }
+
+  /*Segunda Caja*/
+  /*Contenedor principal de la segunda caja*/
+  #containerSection {
+    background-color: #fee228;
+  }
+  /*Contenedor primero de la segunda caja*/
+  #containerSection1 {
+    background-color: #09506f;
+    margin: 20px 20px 10px 20px;
+    width: auto;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #sectionHeader1 {
+    background-color: #61959c;
+    height: 100%;
+    margin: 20px 20px 10px 20px;
+  }
+  #sectionHeader2,
+   #sectionArticle1,
+   #sectionArticle2{
+    background-color: #61959c;
+    height: 100%;
+    margin: 10px 20px;
+  }
+  #sectionFooter {
+    background-color: #70a3c4;
+    height: 100%;
+    margin: 10px 20px 20px 20px;
+  }
+
+  /*Contenedor segundo de la segunda caja*/
+  #containerSection2 {
+      background-color: #fd7b54;
+    height: 120px;
+  }
+
+  #section2Header {
+    background-color: #fdb36b;
+    margin: 20px 20px 10px 20px;
+  }
+  #section2Article {
+    background-color: #fdb36b;
+    margin: 10px 20px 20px 20px;
+  }
+
+}
