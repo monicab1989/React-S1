@@ -29,7 +29,23 @@
     }
     .card3{
         margin-top: 30px;
-        }   
+        }  
+        
+    .form-control{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .containerBtnFooter{
+        margin-left: 16px !important;
+        .btn{
+            width: 90%;
+            margin-top: 10px;
+        }
+    }
+    .containerTexto{
+        width: 73%;
+    }
+    
 }
 
 @media (max-width: 576px){ 
@@ -42,6 +58,8 @@
     .containerBookmark{
         margin-top: 100px;
     }
-    
+    .containerTexto{
+        width: 86%;
+    }
 }
 
