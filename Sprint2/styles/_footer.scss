@@ -6,6 +6,9 @@
 }
 .containerBtnFooter{
     margin-left: -60px !important;
+    .btn{
+        color: white;
+    }
 }
 .containerInput{
     width: 580px;
@@ -21,8 +24,8 @@
     }
     
 }
-.logoFacebook,
-.logoTwitter{
+
+.logoRedes{
     width: 15px;
 }
 .containerLogoBookmark{
