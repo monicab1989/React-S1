@@ -7,21 +7,28 @@
 @import './footer';
 @import './efectos';
 
+
+#containerFeatures{
+    width: 700px;
+}
+
 li{
     list-style: none;
     a{
         text-decoration: none;
         color: black;
-    
     }
 }
-
 .btn{
     box-shadow: $box-shadow;
     
     &-success{
     color: white;
     }
+}
+
+#listaFeatures2, #listaFeatures3{
+    border-bottom: 0.3px solid gray;
 }
 
 .containerDowload{

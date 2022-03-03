@@ -26,10 +26,13 @@
     }
     .card{
         margin-right: 50px;
+        width: 250px;
+        margin-left: 50px;
+        &:nth-child(3) {
+            margin-top: 30px;
+        }
     }
-    .card3{
-        margin-top: 30px;
-        }  
+     
         
     .form-control{
         width: 90%;
@@ -44,6 +47,9 @@
     }
     .containerTexto{
         width: 73%;
+    }
+    #textoBookmark{
+        margin-left: 185px;
     }
     
 }
@@ -61,5 +67,7 @@
     .containerTexto{
         width: 86%;
     }
+    #textoBookmark{
+        margin-left: 60px;
+    }
 }
-
